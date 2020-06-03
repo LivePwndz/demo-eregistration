@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="author" content="Paulo">
+    <link rel="icon" href="favicon.ico">
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.2/cerulean/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EmRcsPP774S9MOi4ywB+JXUWjYnBdyInMzG2XsC5siZEUpexqxOMJW358dCYEjPu" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" th:href="@{/css/master.css}">
+    <title>eRegistration - a demo spring boot webapp featuring CRUD</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a style="padding-right: 2em;" class="navbar-brand" href="./home">eRegistration : : : a CRUD demo webapp</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
+            aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarColor01">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item" style="border-left: white 1px solid; padding-left: 2em; padding-right: 2em;">
+                <a class="nav-link" href="./book/list">Students</a>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <span style="color:#fff;padding-left: 2em; padding-right: 1em;">Welcome, Guest</span>
+            <!--<a style="color: #ffffff; margin-right: 0em;" class="nav-link" href="#">John Doe</a>-->
+            <!--<input class="form-control mr-sm-2" type="text" placeholder="Search">-->
+            <a href="#" class="btn btn-secondary">Sign In</a>
+        </form>
+    </div>
+</nav>
+
+<div style="padding-top:1em;" class="container">
+    <h3>Welcome to the eRegistration System</h3>
+    <hr/>
+    <div style="font-size: 1em">
+        <img width="100%" th:src="@{/images/banner2.jpg}"/><br/><br/>
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
+            aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
+            dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor
+            sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore
+            magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
+            suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in
+            ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas
+            nulla pariatur?.</p>
+        <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I
+            will give you a complete account of the system, and expound the actual teachings of the great explorer of
+            the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself,
+            because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter
+            consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain
+            pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can
+            procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical
+            exercise, except to obtain some advantage from it? But who has any right to find fault with a man who
+            chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no
+            resultant pleasure?</p>
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <span class="text-muted">Paulo : : : CS425-SWE</span>
+        <span style="float:right;" class="text-muted">&copy; June 2020</span>
+    </div>
+</footer>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+        integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+</body>
+</html>
